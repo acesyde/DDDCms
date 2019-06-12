@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_DDDCms.1399154643.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="DDDCms" t="IncludeRecursive">
+        <e p="Controllers" t="Include">
+          <e p="Document" t="Include">
+            <e p="DocumentsController.cs" t="Include" />
+            <e p="Models" t="Include">
+              <e p="CreateDocumentDto.cs" t="Include" />
+              <e p="Fields" t="Include">
+                <e p="BoolFieldDto.cs" t="Include" />
+                <e p="FieldDto.cs" t="Include" />
+                <e p="NumberFieldDto.cs" t="Include" />
+                <e p="StringFieldDto.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Core" t="Include">
+          <e p="JsonConverter" t="Include" />
+          <e p="ModelBinder" t="Include">
+            <e p="FieldDtoModelBinder.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DDDCms.csproj" t="IncludeRecursive" />
+        <e p="Domain" t="Include">
+          <e p="Document" t="Include">
+            <e p="Commands" t="Include">
+              <e p="CreateDocument.cs" t="Include" />
+              <e p="Handlers" t="Include">
+                <e p="CreateDocumentHandler.cs" t="Include" />
+              </e>
+            </e>
+            <e p="DocumentAggregate.cs" t="Include" />
+            <e p="DocumentId.cs" t="Include" />
+            <e p="Entities" t="Include">
+              <e p="FieldEntity.cs" t="Include" />
+              <e p="FieldId.cs" t="Include" />
+              <e p="StringFieldEntity.cs" t="Include" />
+            </e>
+            <e p="Events" t="Include">
+              <e p="DocumentCreated.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Infrastructure" t="Include">
+          <e p="Json" t="Include">
+            <e p="JsonSubTypesConverter.cs" t="Include" />
+            <e p="JsonSubtypes.cs" t="Include" />
+            <e p="JsonSubtypesConverterBuilder.cs" t="Include" />
+            <e p="NullableDictionary.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="app.config" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DDDCms.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DDDCms.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
