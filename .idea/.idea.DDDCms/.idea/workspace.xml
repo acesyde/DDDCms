@@ -19,6 +19,10 @@
       <change afterPath="$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldId.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DDDCms/Domain/Document/Entities/StringFieldEntity.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DDDCms/Domain/Document/Events/DocumentCreated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubTypesConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypesConverterBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms/Infrastructure/Json/NullableDictionary.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DDDCms/Program.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DDDCms/Properties/launchSettings.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DDDCms/Startup.cs" afterDir="false" />
@@ -33,61 +37,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DDDCms/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-              <folding>
-                <marker date="1560347649344" expanded="true" signature="6:308" ph="..." />
-                <marker date="1560347649344" expanded="true" signature="326:1555" ph="{...}" />
-                <marker date="1560347649344" expanded="true" signature="353:1553" ph="{...}" />
-                <marker date="1560347649344" expanded="true" signature="412:475" ph="{...}" />
-                <marker date="1560347649344" expanded="true" signature="698:1198" ph="{...}" />
-                <marker date="1560347649344" expanded="true" signature="938:1186" ph="{...}" />
-                <marker date="1560347649344" expanded="true" signature="1386:1547" ph="{...}" />
-                <marker date="1560347649344" expanded="true" signature="1433:1510" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/CreateDocumentDto.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <marker date="1560344540931" expanded="true" signature="6:127" ph="..." />
-                <marker date="1560344540931" expanded="true" signature="173:427" ph="{...}" />
-                <marker date="1560344540931" expanded="true" signature="210:425" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/FieldDto.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-              <folding>
-                <marker date="1560348697111" expanded="true" signature="6:212" ph="..." />
-                <marker date="1560348697111" expanded="true" signature="265:1532" ph="{...}" />
-                <marker date="1560348697111" expanded="true" signature="353:473" ph="{...}" />
-                <marker date="1560348697111" expanded="true" signature="517:1530" ph="{...}" />
-                <marker date="1560348697111" expanded="true" signature="619:975" ph="{...}" />
-                <marker date="1560348697111" expanded="true" signature="815:965" ph="{...}" />
-                <marker date="1560348697111" expanded="true" signature="1044:1524" ph="{...}" />
-                <marker date="1560348697111" expanded="true" signature="1084:1488" ph="{...}" />
-                <marker date="1560348697111" expanded="true" signature="1256:1473" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,8 +47,12 @@
     <setting file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Commands/CreateDocument.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldId.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubTypesConverter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Commands/Handlers/CreateDocumentHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/DocumentsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/NullableDictionary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypesConverterBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/CreateDocumentDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/StringFieldDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/FieldDto.cs" root0="FORCE_HIGHLIGHTING" />
@@ -139,6 +93,10 @@
         <option value="$PROJECT_DIR$/DDDCms/Core/JsonConverter/FieldDtoJsonConverter.cs" />
         <option value="$PROJECT_DIR$/DDDCms/Core/JsonConverter/FieldJsonConverter.cs" />
         <option value="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/FieldDto.cs" />
+        <option value="$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubTypesConverter.cs" />
+        <option value="$PROJECT_DIR$/DDDCms/Infrastructure/Json/NullableDictionary.cs" />
+        <option value="$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypes.cs" />
+        <option value="$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypesConverterBuilder.cs" />
       </list>
     </option>
   </component>
@@ -181,27 +139,6 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
               <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-              <item name=".NETCoreApp 2.2" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-              <item name=".NETCoreApp 2.2" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Packages" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
@@ -232,60 +169,14 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
               <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
               <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Core" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ModelBinder" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Document" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Document" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Commands" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Document" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Commands" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Handlers" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Document" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Entities" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Document" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Events" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Json" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -343,12 +234,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560341566252</updated>
       <workItem from="1560341571002" duration="123000" />
-      <workItem from="1560341697754" duration="7494000" />
+      <workItem from="1560341697754" duration="7795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7617000" />
+    <option name="totallyTimeSpent" value="7918000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,7 +253,7 @@
   <component name="ToolWindowManager">
     <frame x="1971" y="27" width="1869" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25233132" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25233132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Azure Explorer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -375,7 +266,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="NuGet" order="7" visible="true" weight="0.32792208" />
+      <window_info anchor="bottom" id="NuGet" order="7" visible="true" weight="0.32792208" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Azure Activity Log" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -618,6 +509,172 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Core/JsonConverter/FieldJsonConverter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/NullableDictionary.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+          <folding>
+            <marker date="1560349642348" expanded="true" signature="6:47" ph="..." />
+            <marker date="1560349642348" expanded="true" signature="85:1629" ph="{...}" />
+            <marker date="1560349642348" expanded="true" signature="137:1627" ph="{...}" />
+            <marker date="1560349642348" expanded="true" signature="372:743" ph="{...}" />
+            <marker date="1560349642348" expanded="true" signature="426:672" ph="{...}" />
+            <marker date="1560349642348" expanded="true" signature="474:589" ph="{...}" />
+            <marker date="1560349642348" expanded="true" signature="792:1170" ph="{...}" />
+            <marker date="1560349642348" expanded="true" signature="846:1070" ph="{...}" />
+            <marker date="1560349642348" expanded="true" signature="893:980" ph="{...}" />
+            <marker date="1560349642348" expanded="true" signature="1087:1160" ph="{...}" />
+            <marker date="1560349642348" expanded="true" signature="1218:1275" ph="{...}" />
+            <marker date="1560349642348" expanded="true" signature="1341:1621" ph="{...}" />
+            <marker date="1560349642348" expanded="true" signature="1380:1499" ph="{...}" />
+            <marker date="1560349642348" expanded="true" signature="1547:1611" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypes.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5584">
+          <caret line="349" column="38" lean-forward="true" selection-start-line="349" selection-start-column="38" selection-end-line="349" selection-end-column="38" />
+          <folding>
+            <marker date="1560349647584" expanded="true" signature="6:168" ph="..." />
+            <marker date="1560349647584" expanded="true" signature="206:14452" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="254:14450" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="415:721" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="597:711" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="858:1041" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="968:1031" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="1209:1515" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="1397:1505" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="1737:1931" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="1763:1921" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="2011:2031" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="2098:2193" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="2251:2297" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="2397:2466" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="2604:2685" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="2781:3886" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="2945:3849" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="3372:3575" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="3991:4384" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="4143:4275" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="4498:4961" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="4654:4751" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="5056:5398" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="5183:5313" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="5472:5782" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="5531:5624" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="5880:6119" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="6208:6803" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="6867:7276" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="6963:7070" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="7087:7198" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="7367:8142" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="7720:8100" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="8281:8968" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="8327:8384" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="8648:8842" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="9077:9558" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="9299:9492" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="9664:10123" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="9914:10018" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="10258:10785" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="10330:10387" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="10644:10702" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="10866:11718" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="10910:10967" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="11211:11474" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="11619:11682" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="11839:12501" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="11909:12041" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="12137:12465" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="12376:12451" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="12589:12881" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="12942:13048" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="13192:13504" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="13311:13407" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="13427:13494" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="13599:13704" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="13785:13869" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="13946:14093" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="14148:14267" ph="{...}" />
+            <marker date="1560349647584" expanded="true" signature="14322:14444" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypesConverterBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <marker date="1560349681608" expanded="true" signature="6:36" ph="..." />
+            <marker date="1560349681608" expanded="true" signature="74:1846" ph="{...}" />
+            <marker date="1560349681608" expanded="true" signature="122:1844" ph="{...}" />
+            <marker date="1560349681608" expanded="true" signature="561:828" ph="{...}" />
+            <marker date="1560349681608" expanded="true" signature="658:774" ph="{...}" />
+            <marker date="1560349681608" expanded="true" signature="906:984" ph="{...}" />
+            <marker date="1560349681608" expanded="true" signature="1088:1245" ph="{...}" />
+            <marker date="1560349681608" expanded="true" signature="1334:1428" ph="{...}" />
+            <marker date="1560349681608" expanded="true" signature="1514:1607" ph="{...}" />
+            <marker date="1560349681608" expanded="true" signature="1645:1838" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubTypesConverter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1494">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <marker date="1560349586643" expanded="true" signature="6:98" ph="..." />
+            <marker date="1560349586643" expanded="true" signature="136:3705" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="194:3703" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="958:1870" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="1287:1860" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="1362:1726" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="1437:1708" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="1747:1846" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="1959:2015" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="2077:2131" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="2189:2296" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="2335:2781" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="2361:2771" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="2572:2686" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="2881:3697" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="3008:3101" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="3121:3189" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="3385:3519" ph="{...}" />
+            <marker date="1560349586643" expanded="true" signature="3536:3650" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/FieldDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <marker date="1560349560947" expanded="true" signature="6:136" ph="..." />
+            <marker date="1560349560947" expanded="true" signature="189:1405" ph="{...}" />
+            <marker date="1560349560947" expanded="true" signature="226:346" ph="{...}" />
+            <marker date="1560349560947" expanded="true" signature="390:1403" ph="{...}" />
+            <marker date="1560349560947" expanded="true" signature="492:848" ph="{...}" />
+            <marker date="1560349560947" expanded="true" signature="688:838" ph="{...}" />
+            <marker date="1560349560947" expanded="true" signature="917:1397" ph="{...}" />
+            <marker date="1560349560947" expanded="true" signature="957:1361" ph="{...}" />
+            <marker date="1560349560947" expanded="true" signature="1129:1346" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/CreateDocumentDto.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -627,13 +684,6 @@
             <marker date="1560344540931" expanded="true" signature="173:427" ph="{...}" />
             <marker date="1560344540931" expanded="true" signature="210:425" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Core/JsonConverter/FieldJsonConverter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -650,24 +700,6 @@
             <marker date="1560347649344" expanded="true" signature="938:1186" ph="{...}" />
             <marker date="1560347649344" expanded="true" signature="1386:1547" ph="{...}" />
             <marker date="1560347649344" expanded="true" signature="1433:1510" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/FieldDto.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-          <folding>
-            <marker date="1560348697111" expanded="true" signature="6:212" ph="..." />
-            <marker date="1560348697111" expanded="true" signature="265:1532" ph="{...}" />
-            <marker date="1560348697111" expanded="true" signature="353:473" ph="{...}" />
-            <marker date="1560348697111" expanded="true" signature="517:1530" ph="{...}" />
-            <marker date="1560348697111" expanded="true" signature="619:975" ph="{...}" />
-            <marker date="1560348697111" expanded="true" signature="815:965" ph="{...}" />
-            <marker date="1560348697111" expanded="true" signature="1044:1524" ph="{...}" />
-            <marker date="1560348697111" expanded="true" signature="1084:1488" ph="{...}" />
-            <marker date="1560348697111" expanded="true" signature="1256:1473" ph="{...}" />
           </folding>
         </state>
       </provider>
