@@ -2,9 +2,16 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using DDDCms.Domain.Document.Entities;
+using JsonSubTypes;
+using Newtonsoft.Json;
 
 namespace DDDCms.Controllers.Document.Models.Fields
 {
+    
+    [JsonConverter(typeof(JsonSubtypes), "kind")]
+    [JsonSubtypes.KnownSubType(typeof(StringFieldDto), "string")]
+    [JsonSubtypes.KnownSubType(typeof(BoolFieldDto), "bool")]
+    [JsonSubtypes.KnownSubType(typeof(NumberFieldDto), "number")]
     public abstract class FieldDto
     {
         [Required]

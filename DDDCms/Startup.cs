@@ -1,6 +1,9 @@
-﻿using EventFlow.AspNetCore.Extensions;
+﻿using DDDCms.Domain.Document.Entities;
+using DDDCms.Services;
+using EventFlow.AspNetCore.Extensions;
 using EventFlow.DependencyInjection.Extensions;
 using EventFlow.Extensions;
+using JsonSubTypes;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -29,8 +32,14 @@ namespace DDDCms
 
             services.AddEventFlow(options =>
             {
-                options.AddDefaults(this.GetType().Assembly);
-                options.AddAspNetCore(p => p.RunBootstrapperOnHostStartup());
+                options.AddDefaults(GetType().Assembly);
+                options.RegisterServices(p => p.Register<IDocumentService, DocumentService>());
+                options.ConfigureJson(p => p.AddSingleValueObjects().Configure(s => s.Converters.Add(JsonSubtypesConverterBuilder
+                    .Of(typeof(FieldEntity), "kind")
+                    .RegisterSubtype(typeof(StringFieldEntity), "string")
+                    .SerializeDiscriminatorProperty()
+                    .Build())));
+                options.AddAspNetCore(p => p.RunBootstrapperOnHostStartup().UseMvcJsonOptions());
                 options.UseConsoleLog();
                 options.UseInMemorySnapshotStore();
             });

@@ -1,11 +1,10 @@
+using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using DDDCms.Controllers.Document.Models;
 using DDDCms.Controllers.Document.Models.Fields;
-using DDDCms.Domain.Document;
-using DDDCms.Domain.Document.Commands;
-using EventFlow;
+using DDDCms.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -16,22 +15,25 @@ namespace DDDCms.Controllers.Document
     public class DocumentController : Controller
     {
         private readonly ILogger<DocumentController> _logger;
-        private readonly ICommandBus _commandBus;
+        private readonly IDocumentService _documentService;
 
-        public DocumentController(ILogger<DocumentController> logger, ICommandBus commandBus)
+        public DocumentController(ILogger<DocumentController> logger, IDocumentService documentService)
         {
             _logger = logger;
-            _commandBus = commandBus;
+            _documentService = documentService;
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get([FromQuery] Guid id)
+        {
+            return Ok();
         }
 
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]CreateDocumentDto dto, CancellationToken cancellationToken)
         {
-            var result = await _commandBus.PublishAsync(new CreateDocument(DocumentId.New, dto.Title, dto.Fields.ToEntities().ToList()), cancellationToken);
-            if (!result.IsSuccess)
-                return BadRequest();
-
-            return Ok();
+            var id = await _documentService.CreateAsync(dto.Title, dto.Fields.ToEntities().ToList(), cancellationToken);
+            return AcceptedAtAction(nameof(Get), new { id = id }, null);
         }
     }
 }
