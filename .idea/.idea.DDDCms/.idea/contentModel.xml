@@ -55,6 +55,7 @@
           <e p="Entities" t="Include">
             <e p="FieldEntity.cs" t="Include" />
             <e p="FieldId.cs" t="Include" />
+            <e p="FieldProperties.cs" t="Include" />
             <e p="StringFieldEntity.cs" t="Include" />
           </e>
           <e p="Events" t="Include">

@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fb86235-ec84-4caa-9e1e-c3bb13da3b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/DomainAssemblyHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Commands/CreateSchema.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Commands/Handlers/CreateSchemaHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/StringFieldEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Events/SchemaCreated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/SchemaAggregate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/SchemaId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Services/ISchemaService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Services/SchemaService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DDDCms/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDDCms/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldProperties.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DDDCms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDDCms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Controllers/Document/DocumentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/Controllers/Schema/SchemasController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/CreateDocumentDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/CreateSchemaDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/BoolFieldDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/BoolFieldDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/FieldDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/FieldDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/NumberFieldDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/NumberFieldDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/StringFieldDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/StringFieldDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/DDDCms.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/DDDCms.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/Commands/CreateDocument.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/Commands/Handlers/CreateDocumentHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/DocumentAggregate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/DocumentId.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldId.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/Entities/StringFieldEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/Events/DocumentCreated.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Services/DocumentService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Services/IDocumentService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDDCms/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldEntity.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,19 +15,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DDDCms/Startup.cs">
+        <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldEntity.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="160">
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
               <folding>
-                <marker date="1561452513642" expanded="true" signature="6:425" ph="..." />
-                <marker date="1561452513642" expanded="true" signature="443:2134" ph="{...}" />
-                <marker date="1561452513642" expanded="true" signature="470:2132" ph="{...}" />
-                <marker date="1561452513642" expanded="true" signature="529:592" ph="{...}" />
-                <marker date="1561452513642" expanded="true" signature="815:1777" ph="{...}" />
-                <marker date="1561452513642" expanded="true" signature="1055:1765" ph="{...}" />
-                <marker date="1561452513642" expanded="true" signature="1965:2126" ph="{...}" />
-                <marker date="1561452513642" expanded="true" signature="2012:2089" ph="{...}" />
+                <marker date="1561453173649" expanded="true" signature="67:449" ph="{...}" />
+                <marker date="1561453173649" expanded="true" signature="125:447" ph="{...}" />
+                <marker date="1561453173649" expanded="true" signature="421:441" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -72,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Commands/Handlers/CreateSchemaHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Events/SchemaCreated.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Services/ISchemaService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldProperties.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Services/SchemaService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/SchemasController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DDDCms.Domain/DomainAssemblyHelper.cs" root0="FORCE_HIGHLIGHTING" />
@@ -123,7 +90,6 @@
         <option value="$PROJECT_DIR$/DDDCms.Domain/Class1.cs" />
         <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/SchemaId.cs" />
         <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldId.cs" />
-        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldEntity.cs" />
         <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/StringFieldEntity.cs" />
         <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Commands/CreateSchema.cs" />
         <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Commands/Handlers/CreateSchemaHandler.cs" />
@@ -136,6 +102,10 @@
         <option value="$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/FieldDto.cs" />
         <option value="$PROJECT_DIR$/DDDCms.Domain/DomainAssemblyHelper.cs" />
         <option value="$PROJECT_DIR$/DDDCms/Startup.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/IFieldSettings.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/IField.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldProperties.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldEntity.cs" />
       </list>
     </option>
   </component>
@@ -148,10 +118,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2056" />
-    <option name="y" value="224" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -177,6 +145,19 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
               <item name="DDDCms.Domain" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DDDCms.Domain" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Schemas" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DDDCms.Domain" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Schemas" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Entities" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -236,12 +217,20 @@
       <updated>1560341566252</updated>
       <workItem from="1560341571002" duration="123000" />
       <workItem from="1560341697754" duration="7795000" />
-      <workItem from="1561451694934" duration="819000" />
+      <workItem from="1561451694934" duration="1499000" />
     </task>
+    <task id="LOCAL-00001" summary="clean code">
+      <created>1561452543089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561452543089</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8737000" />
+    <option name="totallyTimeSpent" value="9417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -253,10 +242,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1971" y="27" width="1869" height="1053" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25507405" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24813233" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Azure Explorer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -267,10 +256,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" visible="true" weight="0.32792208" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32792208" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Azure Activity Log" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.31966352" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="REST Client" order="13" />
@@ -290,6 +279,10 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="clean code" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean code" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -425,18 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldEntity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <marker date="1561451998539" expanded="true" signature="67:212" ph="{...}" />
-            <marker date="1561451998539" expanded="true" signature="125:210" ph="{...}" />
-            <marker date="1561451998539" expanded="true" signature="184:204" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,21 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/SchemasController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="34" column="69" lean-forward="true" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
-          <folding>
-            <marker date="1561452422853" expanded="true" signature="6:279" ph="..." />
-            <marker date="1561452422853" expanded="true" signature="316:1206" ph="{...}" />
-            <marker date="1561452422853" expanded="true" signature="412:1204" ph="{...}" />
-            <marker date="1561452422853" expanded="true" signature="631:725" ph="{...}" />
-            <marker date="1561452422853" expanded="true" signature="818:863" ph="{...}" />
-            <marker date="1561452422853" expanded="true" signature="997:1198" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Services/SchemaService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -636,6 +602,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/SchemasController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <marker date="1561452422853" expanded="true" signature="6:279" ph="..." />
+            <marker date="1561452422853" expanded="true" signature="316:1206" ph="{...}" />
+            <marker date="1561452422853" expanded="true" signature="412:1204" ph="{...}" />
+            <marker date="1561452422853" expanded="true" signature="631:725" ph="{...}" />
+            <marker date="1561452422853" expanded="true" signature="818:863" ph="{...}" />
+            <marker date="1561452422853" expanded="true" signature="997:1198" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DDDCms/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -649,6 +630,48 @@
             <marker date="1561452513642" expanded="true" signature="1055:1765" ph="{...}" />
             <marker date="1561452513642" expanded="true" signature="1965:2126" ph="{...}" />
             <marker date="1561452513642" expanded="true" signature="2012:2089" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/IFieldSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/IField.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldProperties.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <marker date="1561453164281" expanded="true" signature="71:311" ph="{...}" />
+            <marker date="1561453164281" expanded="true" signature="120:309" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.idea.DDDCms/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10222" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <marker date="1561453173649" expanded="true" signature="67:449" ph="{...}" />
+            <marker date="1561453173649" expanded="true" signature="125:447" ph="{...}" />
+            <marker date="1561453173649" expanded="true" signature="421:441" ph="{...}" />
           </folding>
         </state>
       </provider>
