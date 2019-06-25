@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_DDDCms.1399154643.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_DDDCms.1067998344.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="DDDCms" t="IncludeRecursive">
         <e p="Controllers" t="Include">
-          <e p="Document" t="Include">
-            <e p="DocumentsController.cs" t="Include" />
+          <e p="Schema" t="Include">
             <e p="Models" t="Include">
-              <e p="CreateDocumentDto.cs" t="Include" />
+              <e p="CreateSchemaDto.cs" t="Include" />
               <e p="Fields" t="Include">
                 <e p="BoolFieldDto.cs" t="Include" />
                 <e p="FieldDto.cs" t="Include" />
@@ -17,43 +16,15 @@
                 <e p="StringFieldDto.cs" t="Include" />
               </e>
             </e>
+            <e p="SchemasController.cs" t="Include" />
           </e>
         </e>
         <e p="Core" t="Include">
-          <e p="JsonConverter" t="Include" />
           <e p="ModelBinder" t="Include">
             <e p="FieldDtoModelBinder.cs" t="Include" />
           </e>
         </e>
         <e p="DDDCms.csproj" t="IncludeRecursive" />
-        <e p="Domain" t="Include">
-          <e p="Document" t="Include">
-            <e p="Commands" t="Include">
-              <e p="CreateDocument.cs" t="Include" />
-              <e p="Handlers" t="Include">
-                <e p="CreateDocumentHandler.cs" t="Include" />
-              </e>
-            </e>
-            <e p="DocumentAggregate.cs" t="Include" />
-            <e p="DocumentId.cs" t="Include" />
-            <e p="Entities" t="Include">
-              <e p="FieldEntity.cs" t="Include" />
-              <e p="FieldId.cs" t="Include" />
-              <e p="StringFieldEntity.cs" t="Include" />
-            </e>
-            <e p="Events" t="Include">
-              <e p="DocumentCreated.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Infrastructure" t="Include">
-          <e p="Json" t="Include">
-            <e p="JsonSubTypesConverter.cs" t="Include" />
-            <e p="JsonSubtypes.cs" t="Include" />
-            <e p="JsonSubtypesConverterBuilder.cs" t="Include" />
-            <e p="NullableDictionary.cs" t="Include" />
-          </e>
-        </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
@@ -67,6 +38,40 @@
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
               <e p="DDDCms.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DDDCms.Domain" t="IncludeRecursive">
+        <e p="DDDCms.Domain.csproj" t="IncludeRecursive" />
+        <e p="DomainAssemblyHelper.cs" t="Include" />
+        <e p="Schemas" t="Include">
+          <e p="Commands" t="Include">
+            <e p="CreateSchema.cs" t="Include" />
+            <e p="Handlers" t="Include">
+              <e p="CreateSchemaHandler.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Entities" t="Include">
+            <e p="FieldEntity.cs" t="Include" />
+            <e p="FieldId.cs" t="Include" />
+            <e p="StringFieldEntity.cs" t="Include" />
+          </e>
+          <e p="Events" t="Include">
+            <e p="SchemaCreated.cs" t="Include" />
+          </e>
+          <e p="SchemaAggregate.cs" t="Include" />
+          <e p="SchemaId.cs" t="Include" />
+          <e p="Services" t="Include">
+            <e p="ISchemaService.cs" t="Include" />
+            <e p="SchemaService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="DDDCms.Domain.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>

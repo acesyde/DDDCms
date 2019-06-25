@@ -1,4 +1,4 @@
-namespace DDDCms.Controllers.Document.Models.Fields
+namespace DDDCms.Controllers.Schema.Models.Fields
 {
     public class BoolFieldDto : FieldDto
     {

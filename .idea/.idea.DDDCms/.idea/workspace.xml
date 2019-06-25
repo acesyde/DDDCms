@@ -2,33 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fb86235-ec84-4caa-9e1e-c3bb13da3b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DDDCms.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Controllers/Document/DocumentsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/CreateDocumentDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/BoolFieldDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/FieldDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/NumberFieldDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/StringFieldDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Core/ModelBinder/FieldDtoModelBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/DDDCms.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Domain/Document/Commands/CreateDocument.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Domain/Document/Commands/Handlers/CreateDocumentHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Domain/Document/DocumentAggregate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Domain/Document/DocumentId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Domain/Document/Entities/StringFieldEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Domain/Document/Events/DocumentCreated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubTypesConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypesConverterBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Infrastructure/Json/NullableDictionary.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/app.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DDDCms/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/DomainAssemblyHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Commands/CreateSchema.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Commands/Handlers/CreateSchemaHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/StringFieldEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Events/SchemaCreated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/SchemaAggregate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/SchemaId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Services/ISchemaService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DDDCms.Domain/Schemas/Services/SchemaService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DDDCms/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDDCms/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DDDCms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DDDCms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Controllers/Document/DocumentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/Controllers/Schema/SchemasController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/CreateDocumentDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/CreateSchemaDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/BoolFieldDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/BoolFieldDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/FieldDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/FieldDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/NumberFieldDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/NumberFieldDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/StringFieldDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/StringFieldDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/DDDCms.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/DDDCms.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/Commands/CreateDocument.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/Commands/Handlers/CreateDocumentHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/DocumentAggregate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/DocumentId.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldId.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/Entities/StringFieldEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Domain/Document/Events/DocumentCreated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Services/DocumentService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Services/IDocumentService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DDDCms/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DDDCms/Startup.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,34 +42,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DDDCms/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+              <folding>
+                <marker date="1561452513642" expanded="true" signature="6:425" ph="..." />
+                <marker date="1561452513642" expanded="true" signature="443:2134" ph="{...}" />
+                <marker date="1561452513642" expanded="true" signature="470:2132" ph="{...}" />
+                <marker date="1561452513642" expanded="true" signature="529:592" ph="{...}" />
+                <marker date="1561452513642" expanded="true" signature="815:1777" ph="{...}" />
+                <marker date="1561452513642" expanded="true" signature="1055:1765" ph="{...}" />
+                <marker date="1561452513642" expanded="true" signature="1965:2126" ph="{...}" />
+                <marker date="1561452513642" expanded="true" signature="2012:2089" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Events/DocumentCreated.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Commands/CreateDocument.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldEntity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldId.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubTypesConverter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Commands/Handlers/CreateDocumentHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/DocumentsController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/NullableDictionary.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypesConverterBuilder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/CreateDocumentDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/StringFieldDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/FieldDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Core/ModelBinder/FieldDtoModelBinder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/BoolFieldDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Commands/CreateSchema.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Commands/Handlers/CreateSchemaHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Events/SchemaCreated.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Services/ISchemaService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Services/SchemaService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/SchemasController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms.Domain/DomainAssemblyHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/CreateSchemaDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/NumberFieldDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/FieldDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/StringFieldDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/BoolFieldDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DDDCms/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/NumberFieldDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Entities/StringFieldEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/SchemaAggregate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DDDCms/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Domain/Document/DocumentId.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DDDCms/Domain/Document/DocumentAggregate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/SchemaId.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms/Core/ModelBinder/FieldDtoModelBinder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldId.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C537D137-102F-424B-BD61-7F3C2111C362/e2/2b3db39f/JsonSubtypes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/StringFieldEntity.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,7 +113,6 @@
         <option value="$PROJECT_DIR$/DDDCms/Domain/Document/DocumentAggregate.cs" />
         <option value="$PROJECT_DIR$/DDDCms/Core/JsonConverter/PolymorphicConverter.cs" />
         <option value="$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldEntity.cs" />
-        <option value="$PROJECT_DIR$/DDDCms/Startup.cs" />
         <option value="$PROJECT_DIR$/DDDCms/Core/JsonConverter/FieldDtoJsonConverter.cs" />
         <option value="$PROJECT_DIR$/DDDCms/Core/JsonConverter/FieldJsonConverter.cs" />
         <option value="$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/FieldDto.cs" />
@@ -97,6 +120,22 @@
         <option value="$PROJECT_DIR$/DDDCms/Infrastructure/Json/NullableDictionary.cs" />
         <option value="$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypes.cs" />
         <option value="$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypesConverterBuilder.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Class1.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/SchemaId.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldId.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldEntity.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/StringFieldEntity.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Commands/CreateSchema.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Commands/Handlers/CreateSchemaHandler.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Events/SchemaCreated.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/SchemaAggregate.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Services/ISchemaService.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/Schemas/Services/SchemaService.cs" />
+        <option value="$PROJECT_DIR$/DDDCms/Controllers/Schema/SchemasController.cs" />
+        <option value="$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/CreateSchemaDto.cs" />
+        <option value="$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/FieldDto.cs" />
+        <option value="$PROJECT_DIR$/DDDCms.Domain/DomainAssemblyHelper.cs" />
+        <option value="$PROJECT_DIR$/DDDCms/Startup.cs" />
       </list>
     </option>
   </component>
@@ -122,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -138,45 +176,7 @@
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Document" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Document" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Document" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Fields" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DDDCms" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Json" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DDDCms.Domain" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -184,6 +184,7 @@
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,11 +236,12 @@
       <updated>1560341566252</updated>
       <workItem from="1560341571002" duration="123000" />
       <workItem from="1560341697754" duration="7795000" />
+      <workItem from="1561451694934" duration="819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7918000" />
+    <option name="totallyTimeSpent" value="8737000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -252,13 +254,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1971" y="27" width="1869" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25233132" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25507405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Azure Explorer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Change Signature" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32900432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
@@ -275,6 +276,8 @@
       <window_info anchor="bottom" id="REST Client" order="13" />
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Change Signature" order="16" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="17" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -297,14 +300,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DDDCms/Core/JsonConverter/FieldJsonConverter.cs</url>
           <line>16</line>
-          <properties documentPath="$PROJECT_DIR$/DDDCms/Core/JsonConverter/FieldDtoJsonConverter.cs" initialLine="16">
-            <startOffsets>
-              <option value="555" />
-            </startOffsets>
-            <endOffsets>
-              <option value="591" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/DDDCms/Core/JsonConverter/FieldDtoJsonConverter.cs" initialLine="16" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
@@ -315,30 +311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/DocumentId.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <marker date="1560341955214" expanded="true" signature="55:196" ph="{...}" />
-            <marker date="1560341955214" expanded="true" signature="108:194" ph="{...}" />
-            <marker date="1560341955214" expanded="true" signature="168:188" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldId.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <marker date="1560342154199" expanded="true" signature="64:196" ph="{...}" />
-            <marker date="1560342154199" expanded="true" signature="111:194" ph="{...}" />
-            <marker date="1560342154199" expanded="true" signature="168:188" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -370,94 +342,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Commands/CreateDocument.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="98" lean-forward="true" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
-          <folding>
-            <marker date="1560345142397" expanded="true" signature="6:98" ph="..." />
-            <marker date="1560345142397" expanded="true" signature="141:535" ph="{...}" />
-            <marker date="1560345142397" expanded="true" signature="216:533" ph="{...}" />
-            <marker date="1560345142397" expanded="true" signature="437:527" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Entities/StringFieldEntity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
-          <folding>
-            <marker date="1560345233862" expanded="true" signature="41:347" ph="{...}" />
-            <marker date="1560345233862" expanded="true" signature="92:345" ph="{...}" />
-            <marker date="1560345233862" expanded="true" signature="319:339" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Events/DocumentCreated.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <marker date="1560345658246" expanded="false" signature="6:100" ph="..." />
-            <marker date="1560345658246" expanded="true" signature="141:334" ph="{...}" />
-            <marker date="1560345658246" expanded="true" signature="224:332" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/DocumentAggregate.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding>
-            <marker date="1560345818563" expanded="false" signature="6:201" ph="..." />
-            <marker date="1560345818563" expanded="true" signature="235:1209" ph="{...}" />
-            <marker date="1560345818563" expanded="true" signature="352:1207" ph="{...}" />
-            <marker date="1560345818563" expanded="true" signature="538:558" ph="{...}" />
-            <marker date="1560345818563" expanded="true" signature="660:1009" ph="{...}" />
-            <marker date="1560345818563" expanded="true" signature="846:938" ph="{...}" />
-            <marker date="1560345818563" expanded="true" signature="1068:1201" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Commands/Handlers/CreateDocumentHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <marker date="1560345644118" expanded="true" signature="6:124" ph="..." />
-            <marker date="1560345644118" expanded="true" signature="176:623" ph="{...}" />
-            <marker date="1560345644118" expanded="true" signature="299:621" ph="{...}" />
-            <marker date="1560345644118" expanded="true" signature="462:615" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/DocumentsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding>
-            <marker date="1560345619233" expanded="true" signature="6:317" ph="..." />
-            <marker date="1560345619233" expanded="true" signature="356:1176" ph="{...}" />
-            <marker date="1560345619233" expanded="true" signature="456:1174" ph="{...}" />
-            <marker date="1560345619233" expanded="true" signature="669:757" ph="{...}" />
-            <marker date="1560345619233" expanded="true" signature="893:1168" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/NumberFieldDto.cs">
+    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/NumberFieldDto.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="31" />
-          <folding>
-            <marker date="1560345060840" expanded="true" signature="51:251" ph="{...}" />
-            <marker date="1560345060840" expanded="true" signature="96:249" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -468,20 +356,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Core/JsonConverter/PolymorphicConverter.cs">
+    <entry file="file://$PROJECT_DIR$/DDDCms/Core/JsonConverter/PolymorphicConverter.cs" />
+    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/StringFieldDto.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="32">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/BoolFieldDto.cs">
+    <entry file="file://$PROJECT_DIR$/DDDCms/Core/JsonConverter/FieldJsonConverter.cs" />
+    <entry file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/NullableDictionary.cs" />
+    <entry file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypes.cs" />
+    <entry file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypesConverterBuilder.cs" />
+    <entry file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubTypesConverter.cs" />
+    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/BoolFieldDto.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="29" />
           <folding>
-            <marker date="1560344993052" expanded="true" signature="51:156" ph="{...}" />
-            <marker date="1560344993052" expanded="true" signature="94:154" ph="{...}" />
+            <marker date="1561452422649" expanded="true" signature="49:154" ph="{...}" />
+            <marker date="1561452422649" expanded="true" signature="92:152" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/SchemaId.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+          <folding>
+            <marker date="1561451916047" expanded="true" signature="54:189" ph="{...}" />
+            <marker date="1561451916047" expanded="true" signature="103:187" ph="{...}" />
+            <marker date="1561451916047" expanded="true" signature="161:181" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/DocumentId.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldId.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldId.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1561451968603" expanded="true" signature="63:195" ph="{...}" />
+            <marker date="1561451968603" expanded="true" signature="110:193" ph="{...}" />
+            <marker date="1561451968603" expanded="true" signature="167:187" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -489,217 +424,231 @@
     <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Entities/FieldEntity.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/FieldEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
-            <marker date="1560347318397" expanded="true" signature="68:301" ph="{...}" />
-            <marker date="1560347318397" expanded="true" signature="126:299" ph="{...}" />
-            <marker date="1560347318397" expanded="true" signature="248:293" ph="{...}" />
+            <marker date="1561451998539" expanded="true" signature="67:212" ph="{...}" />
+            <marker date="1561451998539" expanded="true" signature="125:210" ph="{...}" />
+            <marker date="1561451998539" expanded="true" signature="184:204" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/StringFieldDto.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding>
-            <marker date="1560344290064" expanded="true" signature="51:254" ph="{...}" />
-            <marker date="1560344290064" expanded="true" signature="103:252" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Core/JsonConverter/FieldJsonConverter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/NullableDictionary.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-          <folding>
-            <marker date="1560349642348" expanded="true" signature="6:47" ph="..." />
-            <marker date="1560349642348" expanded="true" signature="85:1629" ph="{...}" />
-            <marker date="1560349642348" expanded="true" signature="137:1627" ph="{...}" />
-            <marker date="1560349642348" expanded="true" signature="372:743" ph="{...}" />
-            <marker date="1560349642348" expanded="true" signature="426:672" ph="{...}" />
-            <marker date="1560349642348" expanded="true" signature="474:589" ph="{...}" />
-            <marker date="1560349642348" expanded="true" signature="792:1170" ph="{...}" />
-            <marker date="1560349642348" expanded="true" signature="846:1070" ph="{...}" />
-            <marker date="1560349642348" expanded="true" signature="893:980" ph="{...}" />
-            <marker date="1560349642348" expanded="true" signature="1087:1160" ph="{...}" />
-            <marker date="1560349642348" expanded="true" signature="1218:1275" ph="{...}" />
-            <marker date="1560349642348" expanded="true" signature="1341:1621" ph="{...}" />
-            <marker date="1560349642348" expanded="true" signature="1380:1499" ph="{...}" />
-            <marker date="1560349642348" expanded="true" signature="1547:1611" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypes.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5584">
-          <caret line="349" column="38" lean-forward="true" selection-start-line="349" selection-start-column="38" selection-end-line="349" selection-end-column="38" />
-          <folding>
-            <marker date="1560349647584" expanded="true" signature="6:168" ph="..." />
-            <marker date="1560349647584" expanded="true" signature="206:14452" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="254:14450" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="415:721" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="597:711" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="858:1041" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="968:1031" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="1209:1515" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="1397:1505" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="1737:1931" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="1763:1921" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="2011:2031" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="2098:2193" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="2251:2297" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="2397:2466" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="2604:2685" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="2781:3886" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="2945:3849" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="3372:3575" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="3991:4384" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="4143:4275" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="4498:4961" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="4654:4751" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="5056:5398" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="5183:5313" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="5472:5782" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="5531:5624" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="5880:6119" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="6208:6803" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="6867:7276" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="6963:7070" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="7087:7198" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="7367:8142" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="7720:8100" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="8281:8968" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="8327:8384" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="8648:8842" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="9077:9558" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="9299:9492" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="9664:10123" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="9914:10018" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="10258:10785" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="10330:10387" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="10644:10702" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="10866:11718" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="10910:10967" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="11211:11474" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="11619:11682" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="11839:12501" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="11909:12041" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="12137:12465" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="12376:12451" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="12589:12881" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="12942:13048" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="13192:13504" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="13311:13407" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="13427:13494" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="13599:13704" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="13785:13869" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="13946:14093" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="14148:14267" ph="{...}" />
-            <marker date="1560349647584" expanded="true" signature="14322:14444" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubtypesConverterBuilder.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <marker date="1560349681608" expanded="true" signature="6:36" ph="..." />
-            <marker date="1560349681608" expanded="true" signature="74:1846" ph="{...}" />
-            <marker date="1560349681608" expanded="true" signature="122:1844" ph="{...}" />
-            <marker date="1560349681608" expanded="true" signature="561:828" ph="{...}" />
-            <marker date="1560349681608" expanded="true" signature="658:774" ph="{...}" />
-            <marker date="1560349681608" expanded="true" signature="906:984" ph="{...}" />
-            <marker date="1560349681608" expanded="true" signature="1088:1245" ph="{...}" />
-            <marker date="1560349681608" expanded="true" signature="1334:1428" ph="{...}" />
-            <marker date="1560349681608" expanded="true" signature="1514:1607" ph="{...}" />
-            <marker date="1560349681608" expanded="true" signature="1645:1838" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Infrastructure/Json/JsonSubTypesConverter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1494">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <marker date="1560349586643" expanded="true" signature="6:98" ph="..." />
-            <marker date="1560349586643" expanded="true" signature="136:3705" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="194:3703" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="958:1870" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="1287:1860" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="1362:1726" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="1437:1708" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="1747:1846" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="1959:2015" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="2077:2131" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="2189:2296" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="2335:2781" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="2361:2771" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="2572:2686" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="2881:3697" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="3008:3101" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="3121:3189" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="3385:3519" ph="{...}" />
-            <marker date="1560349586643" expanded="true" signature="3536:3650" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/Fields/FieldDto.cs">
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Entities/StringFieldEntity.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding>
-            <marker date="1560349560947" expanded="true" signature="6:136" ph="..." />
-            <marker date="1560349560947" expanded="true" signature="189:1405" ph="{...}" />
-            <marker date="1560349560947" expanded="true" signature="226:346" ph="{...}" />
-            <marker date="1560349560947" expanded="true" signature="390:1403" ph="{...}" />
-            <marker date="1560349560947" expanded="true" signature="492:848" ph="{...}" />
-            <marker date="1560349560947" expanded="true" signature="688:838" ph="{...}" />
-            <marker date="1560349560947" expanded="true" signature="917:1397" ph="{...}" />
-            <marker date="1560349560947" expanded="true" signature="957:1361" ph="{...}" />
-            <marker date="1560349560947" expanded="true" signature="1129:1346" ph="{...}" />
+            <marker date="1561452014203" expanded="true" signature="40:181" ph="{...}" />
+            <marker date="1561452014203" expanded="true" signature="91:179" ph="{...}" />
+            <marker date="1561452014203" expanded="true" signature="153:173" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Document/Models/CreateDocumentDto.cs">
+    <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Entities/StringFieldEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Commands/CreateDocument.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Commands/CreateSchema.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <marker date="1560344540931" expanded="true" signature="6:127" ph="..." />
-            <marker date="1560344540931" expanded="true" signature="173:427" ph="{...}" />
-            <marker date="1560344540931" expanded="true" signature="210:425" ph="{...}" />
+            <marker date="1561452073219" expanded="true" signature="6:97" ph="..." />
+            <marker date="1561452073219" expanded="true" signature="139:453" ph="{...}" />
+            <marker date="1561452073219" expanded="true" signature="208:451" ph="{...}" />
+            <marker date="1561452073219" expanded="true" signature="382:445" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Events/SchemaCreated.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <marker date="1561452210956" expanded="true" signature="6:99" ph="..." />
+            <marker date="1561452210956" expanded="true" signature="139:284" ph="{...}" />
+            <marker date="1561452210956" expanded="true" signature="216:282" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/SchemaAggregate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <marker date="1561452231500" expanded="true" signature="6:180" ph="..." />
+            <marker date="1561452231500" expanded="true" signature="213:828" ph="{...}" />
+            <marker date="1561452231500" expanded="true" signature="291:826" ph="{...}" />
+            <marker date="1561452231500" expanded="true" signature="415:435" ph="{...}" />
+            <marker date="1561452231500" expanded="true" signature="523:820" ph="{...}" />
+            <marker date="1561452231500" expanded="true" signature="700:761" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Commands/Handlers/CreateSchemaHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <marker date="1561452184664" expanded="true" signature="6:124" ph="..." />
+            <marker date="1561452184664" expanded="true" signature="175:595" ph="{...}" />
+            <marker date="1561452184664" expanded="true" signature="290:593" ph="{...}" />
+            <marker date="1561452184664" expanded="true" signature="449:587" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/DocumentAggregate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="28" column="15" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Commands/Handlers/CreateDocumentHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Domain/Document/Events/DocumentCreated.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Services/IDocumentService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="10" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Services/DocumentService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/CreateSchemaDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <marker date="1561452422865" expanded="false" signature="6:125" ph="..." />
+            <marker date="1561452422865" expanded="true" signature="169:311" ph="{...}" />
+            <marker date="1561452422865" expanded="true" signature="204:309" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/Models/Fields/FieldDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding>
+            <marker date="1561452442981" expanded="false" signature="6:178" ph="..." />
+            <marker date="1561452442981" expanded="true" signature="229:1733" ph="{...}" />
+            <marker date="1561452442981" expanded="true" signature="515:635" ph="{...}" />
+            <marker date="1561452442981" expanded="true" signature="679:1731" ph="{...}" />
+            <marker date="1561452442981" expanded="true" signature="781:1137" ph="{...}" />
+            <marker date="1561452442981" expanded="true" signature="977:1127" ph="{...}" />
+            <marker date="1561452442981" expanded="true" signature="1206:1725" ph="{...}" />
+            <marker date="1561452442981" expanded="true" signature="1246:1689" ph="{...}" />
+            <marker date="1561452442981" expanded="true" signature="1314:1648" ph="/* return new StringFieldEntity(FieldId.New, stringfieldtype.Name) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms/Controllers/Schema/SchemasController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="34" column="69" lean-forward="true" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
+          <folding>
+            <marker date="1561452422853" expanded="true" signature="6:279" ph="..." />
+            <marker date="1561452422853" expanded="true" signature="316:1206" ph="{...}" />
+            <marker date="1561452422853" expanded="true" signature="412:1204" ph="{...}" />
+            <marker date="1561452422853" expanded="true" signature="631:725" ph="{...}" />
+            <marker date="1561452422853" expanded="true" signature="818:863" ph="{...}" />
+            <marker date="1561452422853" expanded="true" signature="997:1198" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Services/SchemaService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+          <folding>
+            <marker date="1561452341661" expanded="true" signature="6:230" ph="..." />
+            <marker date="1561452341661" expanded="true" signature="272:1007" ph="{...}" />
+            <marker date="1561452341661" expanded="true" signature="322:1005" ph="{...}" />
+            <marker date="1561452341661" expanded="true" signature="520:714" ph="{...}" />
+            <marker date="1561452341661" expanded="true" signature="826:999" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/Schemas/Services/ISchemaService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1561452278220" expanded="true" signature="6:125" ph="..." />
+            <marker date="1561452278220" expanded="true" signature="167:318" ph="{...}" />
+            <marker date="1561452278220" expanded="true" signature="205:316" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DDDCms.Domain/DomainAssemblyHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="81" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
+          <folding>
+            <marker date="1561452480609" expanded="true" signature="49:192" ph="{...}" />
+            <marker date="1561452480609" expanded="true" signature="96:190" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DDDCms/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="32">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding>
-            <marker date="1560347649344" expanded="true" signature="6:308" ph="..." />
-            <marker date="1560347649344" expanded="true" signature="326:1555" ph="{...}" />
-            <marker date="1560347649344" expanded="true" signature="353:1553" ph="{...}" />
-            <marker date="1560347649344" expanded="true" signature="412:475" ph="{...}" />
-            <marker date="1560347649344" expanded="true" signature="698:1198" ph="{...}" />
-            <marker date="1560347649344" expanded="true" signature="938:1186" ph="{...}" />
-            <marker date="1560347649344" expanded="true" signature="1386:1547" ph="{...}" />
-            <marker date="1560347649344" expanded="true" signature="1433:1510" ph="{...}" />
+            <marker date="1561452513642" expanded="true" signature="6:425" ph="..." />
+            <marker date="1561452513642" expanded="true" signature="443:2134" ph="{...}" />
+            <marker date="1561452513642" expanded="true" signature="470:2132" ph="{...}" />
+            <marker date="1561452513642" expanded="true" signature="529:592" ph="{...}" />
+            <marker date="1561452513642" expanded="true" signature="815:1777" ph="{...}" />
+            <marker date="1561452513642" expanded="true" signature="1055:1765" ph="{...}" />
+            <marker date="1561452513642" expanded="true" signature="1965:2126" ph="{...}" />
+            <marker date="1561452513642" expanded="true" signature="2012:2089" ph="{...}" />
           </folding>
         </state>
       </provider>

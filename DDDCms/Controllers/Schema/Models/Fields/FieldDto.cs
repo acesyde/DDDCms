@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using DDDCms.Domain.Document.Entities;
+using DDDCms.Domain.Schemas.Entities;
 using JsonSubTypes;
 using Newtonsoft.Json;
 
-namespace DDDCms.Controllers.Document.Models.Fields
+namespace DDDCms.Controllers.Schema.Models.Fields
 {
     
     [JsonConverter(typeof(JsonSubtypes), "kind")]
@@ -41,12 +41,13 @@ namespace DDDCms.Controllers.Document.Models.Fields
             switch (fieldDto)
             {
                 case StringFieldDto stringfieldtype:
-                    return new StringFieldEntity(FieldId.New, stringfieldtype.Name)
-                    {
-                        DefaultValue = stringfieldtype.DefaultValue,
-                        MaxLenght = stringfieldtype.MaxLength,
-                        MinLenght = stringfieldtype.MinLength
-                    };
+//                    return new StringFieldEntity(FieldId.New, stringfieldtype.Name)
+//                    {
+//                        DefaultValue = stringfieldtype.DefaultValue,
+//                        MaxLenght = stringfieldtype.MaxLength,
+//                        MinLenght = stringfieldtype.MinLength
+//                    };
+                    break;
             }
 
             return null;

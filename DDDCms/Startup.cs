@@ -1,5 +1,6 @@
-﻿using DDDCms.Domain.Document.Entities;
-using DDDCms.Services;
+﻿using DDDCms.Domain;
+using DDDCms.Domain.Schemas.Entities;
+using DDDCms.Domain.Schemas.Services;
 using EventFlow.AspNetCore.Extensions;
 using EventFlow.DependencyInjection.Extensions;
 using EventFlow.Extensions;
@@ -32,8 +33,8 @@ namespace DDDCms
 
             services.AddEventFlow(options =>
             {
-                options.AddDefaults(GetType().Assembly);
-                options.RegisterServices(p => p.Register<IDocumentService, DocumentService>());
+                options.AddDefaults(DomainAssemblyHelper.Assembly);
+                options.RegisterServices(p => p.Register<ISchemaService, SchemaService>());
                 options.ConfigureJson(p => p.AddSingleValueObjects().Configure(s => s.Converters.Add(JsonSubtypesConverterBuilder
                     .Of(typeof(FieldEntity), "kind")
                     .RegisterSubtype(typeof(StringFieldEntity), "string")

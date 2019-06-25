@@ -1,6 +1,6 @@
 using EventFlow.Core;
 
-namespace DDDCms.Domain.Document.Entities
+namespace DDDCms.Domain.Schemas.Entities
 {
     public class FieldId : Identity<FieldId>
     {
